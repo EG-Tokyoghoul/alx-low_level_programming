@@ -1,13 +1,17 @@
 #include <stdio.h>
 int main(void)
 {
-	char letter;
+	char c = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (c <= 'z')
 	{
-	   if (letter != 'e' && letter != 'q')
-	   putchar(letter);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
