@@ -17,11 +17,12 @@ int main(void) {
            putchar(48+b);
            if (a<8){
            putchar(',');
-               putchar(' ');
+               
            }
+                  putchar(' ');
+
        }
        b++;
-       
        }   
    a++;
    }
