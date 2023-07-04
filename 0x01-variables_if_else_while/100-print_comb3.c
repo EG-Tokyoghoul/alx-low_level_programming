@@ -3,7 +3,6 @@
  * main - prints all possible different combinations of two digits
  * Return: ALways 0 (Success)
  */
-
 int main(void) {
     int a=0;
    while (a<10)
@@ -15,12 +14,10 @@ int main(void) {
        {
            putchar(48+a);
            putchar(48+b);
-           if (a<8){
+     if (a<8){
            putchar(',');
-               
-           }
-                  putchar(' ');
-
+       }
+           putchar(' ');
        }
        b++;
        }   
