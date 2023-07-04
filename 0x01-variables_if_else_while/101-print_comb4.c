@@ -12,7 +12,7 @@ int main(void) {
        {
            int c=2;
            while(c<10){
-        if (b!=c!=a && b>a && c>b)
+       if (b!=c && b!=a && b>a && c>b)
        {
            putchar(48+a);
            putchar(48+b);
