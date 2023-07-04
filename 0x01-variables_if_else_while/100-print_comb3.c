@@ -4,7 +4,7 @@
  * Return: ALways 0 (Success)
  */
 
-int main() {
+int main(void) {
     int a=0;
    while (a<10)
    {
@@ -17,6 +17,7 @@ int main() {
            putchar(48+b);
            if (a<8){
            putchar(',');
+               putchar(' ');
            }
        }
        b++;
