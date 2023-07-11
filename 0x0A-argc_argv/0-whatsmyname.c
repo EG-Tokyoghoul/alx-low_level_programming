@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - function
  * @argc: offset count
@@ -9,6 +10,6 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc - 1]);
+	printf("%s\n", *argv);
 	return (0);
 }
