@@ -1,5 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
+
 /**
  * name of typedef struct 
  * struct list_s - singly linked list
@@ -10,7 +11,7 @@
  * Descriptions:the  singly linked list node structure
  * for Holberton project
  */
-ttypedef struct list_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
